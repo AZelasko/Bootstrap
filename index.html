@@ -1,0 +1,334 @@
+﻿<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+	<meta charset="utf-8">
+	<title>PAW</title>
+	<link rel="icon" type="image/ico" href="./img/logo.png" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+		integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	<style>
+		.jumbotron {
+			background: url('img/background.jpg');
+			background-size: cover;
+			background-position: center;
+			background-attachment: fixed;
+			min-height: 120vh;
+		}
+
+		section {
+			padding-top: 4rem;
+		}
+	</style>
+
+</head>
+
+<body class="bg-light">
+	<header class="d-none d-md-block jumbotron jumbotron-fluid" id="top">
+		<div class="container">
+			<h1 class="display-1 text-white">PAW</h1>
+			<p class="display-4 text-white">Chwytamy chwilę! </p>
+			<p class="lead text-white"> Podziel się z przyjaciółmi i resztą świata swoimi zdjęciami</p>
+			<p class="text-light"><strong>Download now on: </strong></p>
+			<a href="#" class="btn btn-lg btn-primary">App Store</a>
+			<a href="#" class="btn btn-lg btn-primary">Google Play</a>
+		</div>
+	</header>
+
+	<nav class="navbar bg-dark navbar-dark navbar-expand-md fixed-top">
+		<a href="#" class="navbar-brand">
+			<img src="./img/logo.png" height="30px" width="30px"></a>
+		<button type="button" class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navBar">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navBar">
+			<ul class="navbar-nav ml-auto id=" navScrollSpy">
+				<li class="nav-item">
+					<a class="nav-link" href="#top">O nas</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#section-description">Portfolio</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#section-oferta">Usługi</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#section-cennik">Ceny</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<article class="bg-light">
+
+
+		<div class="container">
+			<section id="section-description">
+				<h2 class="display-4">Kim jestesmy? </h2>
+				<p>Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle
+					poligraficznym. Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia
+					tekstem próbnej książki.</p>
+				<p>Pięć wieków później zaczął być używany przemyśle elektronicznym, pozostając
+					praktycznie niezmienionym. Spopularyzował się w latach 60. XX w. wraz z publikacją arkuszy
+					Letrasetu, zawierających fragmenty Lorem Ipsum, a ostatnio z zawierającym różne wersje Lorem
+					Ipsum oprogramowaniem przeznaczonym do realizacji druków na komputerach osobistych, jak
+					Aldus PageMaker</p>
+			</section>
+			<section id="section-showcase">
+				<h2 class="display-4"> PAW w akcji </h2>
+				<p> Przyklady działalności </p>
+
+				<div id="carousel" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#carousel" data-slide-to="0" class="active"></li>
+						<li data-target="#carousel" data-slide-tp="1"></li>
+						<li data-target="#carousel" data-slide-tp="2"></li>
+						<li data-target="#carousel" data-slide-tp="3"></li>
+					</ol>
+
+					<div class="carousel-inner" role="listbox">
+						<div class="carousel-item active">
+							<img src="./img/showcase01.jpg" alt="obrazek1" class="d-block img-fluid">
+							<div class=carousel-caption"> Opis obrazka </div>
+						</div>
+						<div class="carousel-item">
+							<img src="./img/showcase02.jpg" alt="obrazek1" class="d-block img-fluid">
+							<div class=carousel-caption"> Opis obrazka </div>
+						</div>
+						<div class="carousel-item">
+							<img src="./img/showcase03.jpg" alt="obrazek1" class="d-block img-fluid">
+							<div class=carousel-caption"> Opis obrazka </div>
+						</div>
+						<div class="carousel-item">
+							<img src="./img/showcase04.jpg" alt="obrazek1" class="d-block img-fluid">
+							<div class=carousel-caption"> Opis obrazka </div>
+						</div>
+					</div>
+					<a href="#carousel" class="carousel-control-prev" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span> </a>
+					<a href="#carousel" class="carousel-control-next" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span></a>
+
+				</div>
+			</section>
+		</div>
+
+
+
+		<section id="section-oferta">
+			<div class="container">
+				<h2 class="display-4">Nasza oferta</h2>
+
+				<div class="row">
+					<div class="col-12 col-sm-6 col-lg-3">
+
+						<i class="fa fa-paint-brush mb-4 text-info">
+							<h3 class="h4 mb-4 text-center">Oferta 1</h3>
+							<p> Neque porro quisquam est qui dolorem ipsum quia
+								dolor sit amet, consectetur, adipisci velit.</p>
+							<a href="#" class="btn btn-sm btn-info">Read more...</a>
+						</i>
+					</div>
+					<div class="col-12 col-sm-6 col-lg-3">
+						<i class="fa fa-video-camera mb-4 text-info">
+							<h3 class="h4 mb-4 text-center">Oferta 2</h3>
+							<p> Neque porro quisquam est qui dolorem ipsum quia
+								dolor sit amet, consectetur, adipisci velit.</p>
+							<a href="#" class="btn btn-sm btn-info">Read more...</a>
+						</i>
+					</div>
+					<div class="col-12 col-sm-6 col-lg-3">
+						<i class="fa fa-instagram mb-4 text-info">
+							<h3 class="h4 mb-4 text-center">oferta 3</h3>
+							<p> Neque porro quisquam est qui dolorem ipsum quia
+								dolor sit amet, consectetur, adipisci velit.</p>
+							<a href="#" class="btn btn-sm btn-info">Read more...</a>
+						</i>
+					</div>
+					<div class="col-12 col-sm-6 col-lg-3">
+						<i class="fa fa-mobile mb-4 text-info">
+							<h3 class="h4 mb-4 text-center">Oferta 4</h3>
+							<p> Neque porro quisquam est qui dolorem ipsum quia
+								dolor sit amet, consectetur, adipisci velit.</p>
+							<a href="#" class="btn btn-sm btn-info">Read more...</a>
+						</i>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+
+		<section id="section-cennik">
+			<div class="container bg-dark"><br>
+				<h2 class="display-4 text-light">Wybierz plan cenowy</h2><br>
+				<div class="row">
+					<div class="col-12 col-md-4">
+						<div class="card">
+							<div class="card-header">
+								<h2>Starter</h2>
+								<h4>Free</h4>
+							</div>
+							<div class="card-body">
+								<p class="card-text">Perfect if you only take pictures for fun.</p>
+							</div>
+							<ul class="list-group">
+								<li class="list-group-item">Enhance your photos and videos</li>
+								<li class="list-group-item">Share on Instagram</li>
+							</ul>
+							<div class="card-footer">
+								<a href="#" class="btn btn-success btn-lg">Select plan</a> </div>
+						</div>
+					</div>
+
+
+					<div class="col-12 col-md-4">
+						<div class="card">
+							<div class="card-header">
+								<h2>Semi prof</h2>
+								<h4>1,99$ per mounth</h4>
+							</div>
+							<div class="card-body">
+								<p class="card-text">Chesz byc bardziej profesjonalny???</p>
+								<ul class="list-group">
+									<li class="list-group-item">Enhance your photo and videos</li>
+									<li class="list-group-item">Share on instagram</li>
+									<li class="list-group-item">Advanced settings</li>
+								</ul>
+							</div>
+							<div class="card-footer">
+								<a href="#" class="btn btn-success btn-lg">Select plan</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-12 col-md-4">
+						<div class="card">
+							<div class="card-header">
+								<h2>Prof</h2>
+								<h4>199,99$ per mounth</h4>
+							</div>
+							<div class="card-body">
+								<p class="card-text">Chesz byc bardziej profesjonalny???</p>
+								<ul class="list-group">
+									<li class="list-group-item">Enhance your photo and videos</li>
+									<li class="list-group-item">Share on instagram</li>
+									<li class="list-group-item">Advanced settings</li>
+									<li class="list-group-item">Non limited access</li>
+								</ul>
+							</div>
+							<div class="card-footer">
+								<a href="#" class="btn btn-success btn-lg">Select plan</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				</br>
+			</div>
+		</section>
+		<section id="our-people">
+			<div class="container">
+				<h2 class="display-4" `>Nasi ludzie</h2>
+
+				<div class="row">
+					<div class="col-12 col-sm-6 col-md-3">
+						<img src="./img/puchatek1.jpeg" class="rounded-circle" alt="Puchatek1">
+					</div>
+					<div class="col-12 col-sm-6 col-md-3">
+						<img src="./img/puchatek2.jpeg" class="rounded-circle" alt="Puchatek1">
+					</div>
+					<div class="col-12 col-sm-6 col-md-3">
+						<img src="./img/prosiaczek.jpeg" class="rounded-circle" alt="Puchatek1">
+					</div>
+					<div class="col-12 col-sm-6 col-md-3">
+						<img src="./img/klapouchy.jpeg" class="rounded-circle" alt="Puchatek1">
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-12 col-sm-6 col-md-3">
+						<p>Kubus Puchatek</p>
+					</div>
+					<div class="col-12 col-sm-6 col-md-3">
+						<h1 class="display-12">Abcio Chrapcio</h1>
+					</div>
+					<div class="col-12 col-sm-6 col-md-3">
+						<h1 class="display-12">Prosiaczek</h1>
+					</div>
+					<div class="col-12 col-sm-6 col-md-3">
+						<h1 class="display-12">Kłapouchy</h1>
+					</div>
+				</div>
+			</div>
+		</section>
+
+ <section id="Contact">
+	 <div class="container">
+	 <h2 class="display-4">Skontaktuj się z nami</h2>
+	 <div class="form-group">
+		 <label for="email">Podaj adres e-mail</label>
+		 <input type="email" class="form-control" id="email">
+	 </div>
+	 <div class="form-group">
+		 <label for="comment">Zostaw nam wiadomość</label>
+		 <textarea class="form-control" rows="5" id="comment"></textarea>
+	 </div>
+	 </div>
+ </section>
+
+
+	</article>
+
+	<footer>
+		<div class=”container”>
+			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal">
+				Polityka prywatności
+			</button>
+		</div>
+	</footer>
+
+	<div class="modal fade" id="modal" tabindex="-1" role="dialog">
+		<div class="modal-dialog modal-lg " role="document">
+			<div class="modal-content">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span ariahidden="true">×</span></button>
+						<h4 class="modal-title" id="modalLabel">Własność prywatna!</h4>
+					</div>
+
+					<div class="modal-body">
+						<h1>Właściciel: Agnieszka Żelasko</h1>
+					</div>
+
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" datadismiss="modal">Close</button>
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+
+
+
+
+
+
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+		integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+		crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+		integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+		crossorigin="anonymous"></script>
+
+</body>
+
+</html>
